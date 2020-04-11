@@ -13,3 +13,44 @@ code {
 * {
   margin: 0
 }
+
+ul {
+  display: inline-flex;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  margin: 30px;
+  font-size: 20px;
+}
+
+.btnLogin {
+  float: right;
+  margin: 0 30px 0 0;
+  border: none;
+  background-color: rgb(66, 73, 100);
+  padding: 10px;
+  width: 70px;
+  font-size: 15px;
+  color: white;
+  font-weight: 600;
+}
+
+.btnLogin:hover {
+  background-color: rgba(66, 73, 100, 0.808);
+}
+
+.title {
+  margin-top: 40px;
+}
+
+.navlink {
+  color: white;
+  font-weight: 600;
+}
+
+.navBar {
+  background-color: rgb(109, 122, 177);
+  padding: 30px;
+}

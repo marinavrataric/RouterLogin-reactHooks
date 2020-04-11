@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import HomePage from './components/HomePage';
+import NavBarRouter from './components/NavBarRouter';
 
 ReactDOM.render(
   <React.StrictMode>
-    <HomePage/>
+      <NavBarRouter />
   </React.StrictMode>,
   document.getElementById('root')
 );
