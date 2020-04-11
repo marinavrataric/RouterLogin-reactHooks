@@ -43,6 +43,8 @@ a {
 
 .title {
   margin-top: 40px;
+  text-align: center;
+  margin-bottom: 60px;
 }
 
 .navlink {
@@ -53,4 +55,32 @@ a {
 .navBar {
   background-color: rgb(109, 122, 177);
   padding: 30px;
+}
+
+img {
+  width: 240px;
+  height: 240px;
+}
+
+.item-title{
+  width: 240px;
+  height: 70px;
+  text-align: center;
+}
+
+.cards {
+    display: inline-table;
+}
+
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin: 20px;
+  border: 2px solid #e7e7e7;
+  border-radius: 4px;
+  padding: .5rem;
+}
+
+.homepage {
+  margin: 0 100px 80px 100px;
 }
