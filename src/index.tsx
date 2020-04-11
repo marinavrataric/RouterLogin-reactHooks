@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import NavBarRouter from './components/NavBarRouter';
+import NavigationBar from './components/router/NavigationBar';
 
 ReactDOM.render(
   <React.StrictMode>
-      <NavBarRouter />
+      <NavigationBar />
   </React.StrictMode>,
   document.getElementById('root')
 );
