@@ -4,6 +4,7 @@ import HomePage from '../HomePage'
 import UserContact from '../UserContact'
 import UserPosts from '../UserPosts'
 import AboutMe from '../AboutMe'
+import Login from '../Login'
 
 function SwitchRouter() {
     return (
@@ -12,6 +13,7 @@ function SwitchRouter() {
             <Route path="/contacts" component={UserContact} />
             <Route path="/posts" component={UserPosts} />
             <Route path="/aboutme" component={AboutMe} />
+            <Route path="/login" component={Login} />
         </Switch>
     )
 }

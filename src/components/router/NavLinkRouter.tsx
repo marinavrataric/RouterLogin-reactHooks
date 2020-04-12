@@ -10,6 +10,7 @@ function NavLinkRouter() {
                 <li><NavLink className="navlink" activeStyle={{ color: 'rgb(52,48,76)' }} strict to="/posts" >Posts</NavLink></li>
                 <li><NavLink className="navlink" activeStyle={{ color: 'rgb(52,48,76)' }} strict to="/aboutme" >About Me</NavLink></li>
             </ul>
+            <NavLink strict to="/login"><button className="btnLogin">Login</button></NavLink>
         </div>
     )
 }
