@@ -20,7 +20,7 @@ function HomePage() {
     return (
         <div className="homepage">
             <h1 className="title">Home Page ~ Gallery</h1>
-            <div>{photos}</div>
+            <div>{fetchedData.isLoading ? <h2>Loading...</h2> : photos}</div>
         </div>
     )
 }

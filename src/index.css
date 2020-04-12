@@ -27,7 +27,7 @@ a {
 
 .btnLogin {
   float: right;
-  margin: -60px 30px 0 0;
+  margin: -10px 40px 0 0;
   border: none;
   background-color: rgb(66, 73, 100);
   padding: 10px;
@@ -83,4 +83,10 @@ img {
 
 .homepage {
   margin: 0 100px 80px 100px;
+}
+
+.form {
+  background-color: sandybrown;
+  width: 170px;
+  text-align: center;
 }
