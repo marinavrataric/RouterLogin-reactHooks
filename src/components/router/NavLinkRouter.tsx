@@ -1,7 +1,20 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import React, { useContext } from 'react'
+import { NavLink, useHistory  } from 'react-router-dom'
+import { LoginUserContext } from '../LoginUserContext'
 
 function NavLinkRouter() {
+
+    const history = useHistory()
+    const { user, setUser } = useContext(LoginUserContext)
+
+    const handleLogin = () => {
+        history.push('/Login')
+        if(user.isLogin) {
+            setUser({...user, isLogin: false})
+            history.push('/')
+        }
+    }
+
     return (
         <div className="navBar">
             <ul>
@@ -10,7 +23,7 @@ function NavLinkRouter() {
                 <li><NavLink className="navlink" activeStyle={{ color: 'rgb(52,48,76)' }} strict to="/posts" >Posts</NavLink></li>
                 <li><NavLink className="navlink" activeStyle={{ color: 'rgb(52,48,76)' }} strict to="/aboutme" >About Me</NavLink></li>
             </ul>
-            <NavLink strict to="/login"><button className="btnLogin">Login</button></NavLink>
+            <button className="btnLogin" onClick={handleLogin}>{user.isLogin ? 'Logout' : 'Login'}</button>
         </div>
     )
 }
