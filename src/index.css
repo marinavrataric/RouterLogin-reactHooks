@@ -90,3 +90,30 @@ img {
   width: 170px;
   text-align: center;
 }
+
+.center {
+  text-align: center;
+  margin: 30px;
+}
+
+.divForm {
+  display: block;
+  text-align: center;
+}
+
+.form {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+.inputForm {
+  width: 300px;
+  padding: 8px;
+  margin-bottom: 30px;
+}
+
+h4{
+  margin: 14px;
+}
