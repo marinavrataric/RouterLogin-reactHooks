@@ -27,7 +27,7 @@ a {
 
 .btnLogin {
   float: right;
-  margin: -10px 40px 0 0;
+  margin: -10px 80px 0 0;
   border: none;
   background-color: rgb(66, 73, 100);
   padding: 10px;
@@ -55,6 +55,10 @@ a {
 .navBar {
   background-color: rgb(109, 122, 177);
   padding: 30px;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
 }
 
 img {
@@ -82,7 +86,7 @@ img {
 }
 
 .homepage {
-  margin: 0 100px 80px 100px;
+  margin: 120px 100px 80px 100px;
 }
 
 .ldivForm {
@@ -122,7 +126,7 @@ img {
 
 .center {
   text-align: center;
-  margin: 30px;
+  margin: 120px 100px 80px 100px;
 }
 
 .divForm {
@@ -174,5 +178,9 @@ table td, table th {
 }
 
 .usercontacts {
-  margin: 0 200px 70px 200px;
+  margin: 130px 200px 70px 200px;
+}
+
+.aboutme{
+  margin: 120px 100px 80px 100px;
 }
