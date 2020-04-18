@@ -86,9 +86,10 @@ img {
 }
 
 .form {
-  background-color: sandybrown;
-  width: 170px;
+  width: 300px;
   text-align: center;
+  font-size: 13px;
+  color: red;
 }
 
 .center {
