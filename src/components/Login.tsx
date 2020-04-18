@@ -33,16 +33,16 @@ function Login() {
     }
 
     return (
-        <div>
+        <div className='divForm'>
             <h1 className="title">Login</h1>
             <div className="form">
-                <input type="text" placeholder="username" onChange={handleUsername} value={user.username} />
+                <input className="inputTxt" type="text" placeholder="username" onChange={handleUsername} />
                 <p>{state.usernameError}</p>
-                <input type="text" placeholder="email" onChange={handleEmail} value={user.email} />
+                <input className="inputTxt" type="text" placeholder="email" onChange={handleEmail} />
                 <p>{state.emailError}</p>
-                <input type="password" placeholder="password" onChange={handlePassword} value={user.password} />
+                <input className="inputTxt" type="password" placeholder="password" onChange={handlePassword} />
                 <p>{state.passwordError}</p>
-                <button onClick={handleLogin}>Login</button>
+                <button className='loginBtn' onClick={handleLogin}>Login</button>
             </div>
         </div>
     )
